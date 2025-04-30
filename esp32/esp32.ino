@@ -8,8 +8,8 @@
 #define DHTTYPE DHT11
 #define SOIL_SENSOR 34
 
-const char* ssid = "retenet";
-const char* password = "qwertyuiopp";
+const char* ssid = "YOUR WIFI SSID";
+const char* password = "YOUR WIFI PASSWORD";
 
 AsyncWebServer server(80);
 DHT dht(DHTPIN, DHTTYPE);
